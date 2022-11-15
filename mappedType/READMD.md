@@ -1,3 +1,15 @@
+## 예제용 interface
+
+```tsx
+interface UserProps {
+  no: number;
+  name: string;
+  age: number;
+  createdTime: Date;
+  updatedTime: Date;
+}
+```
+
 참고로 Interface는 extends를 사용하도록 만들어졌고 Mapped type은 말그대로 type에서 쓸 수 있다.
 
 ## What is Partial, Required, Readonly, Pick utility types?
